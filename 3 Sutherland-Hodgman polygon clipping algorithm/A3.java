@@ -1,6 +1,5 @@
 import java.util.*;
 import java.io.*;
-//Inspiration for implementation of Sutherland-Hodgman polygon clipping algorithm gotten from "https://www.longsteve.com/fixmybugs/?page_id=203"
 public class A3 {
 
 

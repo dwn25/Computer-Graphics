@@ -1,22 +1,5 @@
 import java.io.*;
 import java.util.*;
-/*
-Implementation of Sutherland-Hodgman polygon clipping algorithm was gathered from;
-        "https://www.longsteve.com/fixmybugs/?page_id=203"
-
-        Implementation of Scan Fill Algorithm found here;
-        "https://bedeveloper.wordpress.com/a-c-program-to-fill-polygon-using-scan-line-fill-algorithm/"
-        and "http://code-heaven.blogspot.com/2009/10/simple-c-program-for-scan-line-polygon.html"
-
-        Homogeneous coordinates implimentation
-        "https://www.developer.com/java/other/article.php/3714626/Understanding-Transforms-in-Java-2D.htm#Figure_3"
-        "https://javaconceptoftheday.com/how-to-perform-matrix-operations-in-java/"
-        "https://www.programiz.com/java-programming/multidimensional-array"
-
-        Other sources;
-        "https://stackoverflow.com/questions/5393254/java-comparator-class-to-sort-arrays"
-
-*/
 public class A5
 {
 

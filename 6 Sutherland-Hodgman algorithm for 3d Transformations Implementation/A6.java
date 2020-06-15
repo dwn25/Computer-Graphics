@@ -1,30 +1,5 @@
 import java.io.*;
 import java.util.*;
-/*
-Implementation of Sutherland-Hodgman algorithm was gathered from;
-        "https://www.longsteve.com/fixmybugs/?page_id=203"
-
-        Homogeneous coordinates implementation
-        "https://www.developer.com/java/other/article.php/3714626/Understanding-Transforms-in-Java-2D.htm#Figure_3"
-        "https://javaconceptoftheday.com/how-to-perform-matrix-operations-in-java/"
-        "https://www.programiz.com/java-programming/multidimensional-array"
-
-        Cross Product Computation
-        "http://robotics.stanford.edu/~birch/projective/node4.html"
-        "http://www.java2s.com/Code/Android/Game/Computethecrossproductoftwovectors.htm"
-
-        Projections
-        "https://www.tutorialspoint.com/computer_graphics/3d_computer_graphics.htm"
-        "https://stackoverflow.com/questions/724219/how-to-convert-a-3d-point-into-2d-perspective-projection?rq=1"
-
-        3D Transformations
-        "https://www.tutorialspoint.com/computer_graphics/3d_transformation.htm"
-
-        Other sources;
-        "https://stackoverflow.com/questions/5393254/java-comparator-class-to-sort-arrays"
-
-*/
-
 public class A6
 {
     static int top = 0;

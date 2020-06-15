@@ -2,7 +2,6 @@
  *
  * @author DNartey
  */
-//References in README
 import java.io.*;
 import java.util.*;
 

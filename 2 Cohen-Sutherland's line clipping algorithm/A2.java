@@ -2,8 +2,6 @@
  *
  * @author DNartey
  */
-//References in README
-//Inspiration for cohen_sutherland algorithm can be found here; "https://www.geeksforgeeks.org/line-clipping-set-1-cohen-sutherland-algorithm/"
 
 import java.io.*;
 import java.util.*;

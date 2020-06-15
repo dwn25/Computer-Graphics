@@ -1,39 +1,5 @@
 import java.io.*;
 import java.util.*;
-
-/*
-Implementation of Sutherland-Hodgman algorithm was gathered from;
-        "https://www.longsteve.com/fixmybugs/?page_id=203"
-
-        Homogeneous coordinates implementation
-        "https://www.developer.com/java/other/article.php/3714626/Understanding-Transforms-in-Java-2D.htm#Figure_3"
-        "https://javaconceptoftheday.com/how-to-perform-matrix-operations-in-java/"
-        "https://www.programiz.com/java-programming/multidimensional-array"
-
-        Cross Product Computation
-        "http://robotics.stanford.edu/~birch/projective/node4.html"
-        "http://www.java2s.com/Code/Android/Game/Computethecrossproductoftwovectors.htm"
-
-        Projections
-        "https://www.tutorialspoint.com/computer_graphics/3d_computer_graphics.htm"
-        "https://stackoverflow.com/questions/724219/how-to-convert-a-3d-point-into-2d-perspective-projection?rq=1"
-
-        3D Transformations
-        "https://www.tutorialspoint.com/computer_graphics/3d_transformation.htm"
-
-        Implementation of Scan Fill Algorithm found here;
-        "https://bedeveloper.wordpress.com/a-c-program-to-fill-polygon-using-scan-line-fill-algorithm/"
-        "http://code-heaven.blogspot.com/2009/10/simple-c-program-for-scan-line-polygon.html"
-
-        Z-Buffering
-        "https://stackoverflow.com/questions/26372092/z-buffering-algorithm-not-drawing-100-correctly"
-        "https://www.programcreek.com/java-api-examples/index.php?source_dir=Render-master/src/com/pascucci/render/engine/ZBuffer.java"
-        "http://www.mscs.mu.edu/~mikes/174.F2004/demos/dec10/ch11src/src/com/brackeen/javagamebook/graphics3D/ZBuffer.java
-
-        Other sources;
-        "https://stackoverflow.com/questions/5393254/java-comparator-class-to-sort-arrays"
-
-*/
 public class A7
 {
     static float x_prp = 0.0f;

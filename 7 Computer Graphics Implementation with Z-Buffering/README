@@ -1,0 +1,14 @@
+Computer Graphics Implementation with Z-Buffering<br />
+
+A bash file has been added that creates the java class and runs the program. It can be run with the command; "./runtests.sh"
+Program was written and compiled in java using IntelliJ on MacOS X 10.14.1. A class has been added to the java file in order to
+streamline testing. Please type "javac A7.java" to create the class file if the class file does not function as it should. Running the
+program from command line requires the commands to be entered in the form of "java A7 -f bound-bunny_1k.smf -g bound-cow.smf -i bound-sprtrd.smf". 
+The tester must ensure that the input file is saved within the same enclosing folder. The output file will depend on the commands that were
+entered. The output file for the above command will therefore be in the form of "bound-bunny_1kbound-cowbound-sprtrd.xpm". The commented
+out code were used for testing. Homogenous coordinates were implemented in conjunction with ArrayLists where the homogenous coordinates
+were taken from stored values in array lists and then used to perform the transformation in the order Scale, Rotate and Translate where
+applicable and then stored into arrayLists for a a better understanding or convenient transference between functions. The reference list
+can be found below. Majority of tests run as expected
+
+

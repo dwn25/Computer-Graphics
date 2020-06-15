@@ -1,0 +1,35 @@
+Sutherland-Hodgman algorithm for 3d Transformations Implementation<br />
+A bash file has been added that creates the java class and runs the tests that were provided within the pdf. It can be run the same way
+as the bash file for the previous assignment; "./runtests.sh"
+Program was written and compiled in java using IntelliJ on MacOS X 10.14.1. A class has been added to the java file in order to
+streamline testing. Please type "javac A6.java" to create the class file if the class file does not function as it should. Running the
+program from command line requires the commands to be entered in the form of "java A6 -f bound-cow.smf -j 0 -k 30 -o 275 -p 305 -P". The
+tester must ensure that the input file is saved within the same enclosing folder. The output file will depend on the commands that were
+entered. The output file for the above comman will therefore be in the form of "bound-cow_j_0_k_30.0_o_275.0_p_305.0_P.xpm". The commented
+out code were used for testing. Homogenous coordinates were implemented in conjunction with ArrayLists where the homogenous coordinates
+were taken from stored values in array lists and then used to perform the transformation in the order Scale, Rotate and Translate where
+applicable and then stored into arrayLists for a a better understanding or convenient transference between functions. The reference list
+can be found below.
+
+References:
+Implementation of Sutherland-Hodgman individual sutherland_hodg algorithm was gathered from;
+"https://www.longsteve.com/fixmybugs/?page_id=203"
+
+Homogeneous coordinates implementation
+"https://www.developer.com/java/other/article.php/3714626/Understanding-Transforms-in-Java-2D.htm#Figure_3"
+"https://javaconceptoftheday.com/how-to-perform-matrix-operations-in-java/"
+"https://www.programiz.com/java-programming/multidimensional-array"
+
+Cross Product Computation
+"http://robotics.stanford.edu/~birch/projective/node4.html"
+"http://www.java2s.com/Code/Android/Game/Computethecrossproductoftwovectors.htm"
+
+Projections
+"https://www.tutorialspoint.com/computer_graphics/3d_computer_graphics.htm"
+"https://stackoverflow.com/questions/724219/how-to-convert-a-3d-point-into-2d-perspective-projection?rq=1"
+
+3D Transformations
+"https://www.tutorialspoint.com/computer_graphics/3d_transformation.htm"
+
+Other sources;
+"https://stackoverflow.com/questions/5393254/java-comparator-class-to-sort-arrays"
